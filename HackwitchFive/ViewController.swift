@@ -21,6 +21,9 @@ class ViewControllerThree: UIViewController, UITableViewDataSource, UITableViewD
     override func viewDidLoad() {
         super.viewDidLoad()
         self.tableView.dataSource = self
+        tableView.dataSource = self
+        tableView.delegate = self
+        
         // Do any additional setup after loading the view, typically from a nib.
         func numberOfSelections(in tableView: UITableView) -> Int {
             return 1;

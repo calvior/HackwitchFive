@@ -30,6 +30,9 @@
                                             <rect key="frame" x="0.0" y="0.0" width="320" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="nL0-4l-dbe" kind="show" identifier="mySegue" id="q7X-EE-eGS"/>
+                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
                                 <connections>
