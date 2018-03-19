@@ -12,7 +12,10 @@ class detailViewController: UIViewController {
 
     @IBOutlet var imageView: UIImageView!
     
+    @IBOutlet var tableView: UITableView!
+    
     var imagePass: String?
+    var restaurantImageData = [String]()
     
     override func viewDidLoad() {
         super.viewDidLoad()
